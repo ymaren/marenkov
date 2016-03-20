@@ -1,0 +1,43 @@
+#hed
+{
+    font: 40px Tahoma;
+    color:#FFFAF0;
+    background: #292DEA;
+    height: 80px;
+    border: 3px solid #000001;
+    margin: 0px 0px -35px 0px;
+}
+
+#menu
+{   font: 40px Tahoma;
+    color:#FFFAF0;
+    background: #55FF37;
+    height: 60px;
+}
+
+#art
+{
+    font: 40px Tahoma;
+    color:#FFFAF0;
+    background: #EACC80;
+    width: 700px;
+    
+    height: 500px;
+    margin: 0px 0px 0px px;
+}
+#asid
+{
+    font: 40px Tahoma;
+    color:#FFFAF0;
+    background:#FFDD00;
+    height: 50px;
+}
+
+
+#foot
+{
+    font: 40px Tahoma;
+    color:#FFFAF0;
+    background: #EA1527;
+    height: 500px;
+}
