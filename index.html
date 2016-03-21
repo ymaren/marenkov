@@ -7,31 +7,95 @@
     <body>
         
         <header id="hed"> 
-        
-        <p align ="center">Header</p>
-        
+            Header
+          This is my WebSite.
         </header>
         
         
-        <nav id="menu">
-         <p align ="right">Navigate menu</p>   
-            
+        <nav id="menuGoryz">
+        Navigate menu   
+        </nav>
+         
+        <nav id="menuVert">
+        Navigate menu   
         </nav>
         
-        <article id ="art">
-        <p align ="center">Article</p>  
-        </article>
-        
-        
         <aside id ="asid">
-        <p align ="center">Aside</p>  
-            
+           Aside
+        <article id ="art">
+        Article  
+        </article>
         </aside>
         
-        <footer id ="foot">
-        <p align ="center">Footer</p>
-            
+        <img  src= "picture/myFoto.jpg" height = "600" alt = "MyFoto" >
+        
+        <div class="clear"></div>
+        
+        <selection id ="forms">
+            <h2>Contact</h2>
+         <form action = "formdata.php"  metod="post" name ="form1">
+        <fieldset>
+        <legend><STRONG>INPUT ELEMENTS</STRONG> </legend>
+        <p><label>Name:<input type ="text" name ="_name" size ="10" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
+        <p><label>Email:<input type ="email" name ="_email" required></label>
+        <p><label>Enter password: <input type ="password" name ="password" size ="10" maxlength ="10" required ></label> </p>
+        
+        <p> Do you know me? <label>Yes <input type ="radio"  name ="name" value = "yes"  checked   ></label>  <label>No <input type ="radio"  name ="name" value = "no"></label> </p>
+
+        <p>Selection </p>
+        <p>
+        <select name ="times">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option selected>5</option>
+        <option>6</option>
+        <option>7</option>
+        </select>
+        </p>
+        <p>
+        <select name ="times" size ="3" multiple>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option selected>5</option>
+        <option>6</option>
+        <option>7</option>
+        </select>
+        </p>
+
+        
+        <p> Make your choice:  
+        <label>Choice 1 <input type ="checkbox" name ="cb1">  </label> 
+        <label>Choice 2 <input type ="checkbox" name ="cb2" checked>  </label> 
+        <label>Choice 3 <input type ="checkbox" name ="cb3">  </label> 
+        </p>
+        </fieldset>
+        
+        
+        <!--RihtTextBox -->
+        <p><label for ="rtx">Enter the text for me:</label></p>
+        <textarea id ="etx" name ="text" rows ="5" cols ="40">Text
+        </textarea>
+        
+        <p> 
+        <input type ="submit" value ="Sent"> 
+        <input type ="reset" value ="Reset">
+        </p>
+        <p>
+        <input type ="image" src ="image/ibutton.png" name ="picture">
+        </p>
+        </form>
+        </selection>
+        
+        
+        <footer>
+            footer
+           
         </footer>
+        
         
         
         

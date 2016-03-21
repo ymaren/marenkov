@@ -1,43 +1,76 @@
-#hed
+body 
+{
+            
+            text-align: center;
+            width: 90%;
+            height: 1500px;
+            margin: 2px auto 2px auto;
+            border-bottom-width:3px;
+            border-bottom-color: #000000;
+            border-style: solid;
+}
+
+header
 {
     font: 40px Tahoma;
     color:#FFFAF0;
     background: #292DEA;
-    height: 80px;
-    border: 3px solid #000001;
-    margin: 0px 0px -35px 0px;
+    height: 40px;
 }
 
-#menu
-{   font: 40px Tahoma;
-    color:#FFFAF0;
-    background: #55FF37;
-    height: 60px;
-}
-
-#art
-{
-    font: 40px Tahoma;
-    color:#FFFAF0;
-    background: #EACC80;
-    width: 700px;
-    
-    height: 500px;
-    margin: 0px 0px 0px px;
-}
-#asid
+#menuGoryz
 {
     font: 40px Tahoma;
     color:#FFFAF0;
     background:#FFDD00;
-    height: 50px;
+    height: 40px;
+    width: 50;
+    margin: 0;
+    padding:0;
+    
+}
+
+#menuVert
+{
+    font: 40px Tahoma;
+    color:#FFFAF0;
+    background:#B4D1FF;
+    height: 40%;
+    width: 20%;
+    margin: 0;
+    padding:0;
+    float: left;
+    
+}
+
+aside
+{
+    font: 40px Tahoma;
+    color:#FFFAF0;
+    background:#FF7D86;
+    height: 40%;
+    width: 60%;
+    margin: 0;
+    padding:0;
+    float: left;
+}
+
+#forms
+{
+   
+    background:#8E8CFF;
+    
 }
 
 
-#foot
+footer
 {
     font: 40px Tahoma;
     color:#FFFAF0;
     background: #EA1527;
-    height: 500px;
+    height: 60px;
+}
+
+.clear{
+ clear: both;   
 }
