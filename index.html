@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>bhkigui </title>
-        <link href ="css/style.css" type = "text/css" rel = "stylesheet" > 
+        <title>my</title>
+        <link href ="css/style.css" max-width: 1200px type = "text/css" rel = "stylesheet" >
+        <link rel="stylesheet" media="(max-width: 599px)" href="css/style_min_size.css">
     </head>
     <body>
-        
+        <div id="flex">
         <header id="hed"> 
             Header
           This is my WebSite.
@@ -13,11 +14,20 @@
         
         
         <nav id="menuGoryz">
-        Navigate menu   
+        
+                   <a href="#">Home</a>
+                   <a href="#">Skills</a>
+                   <a href="#">Work</a>
+                   <a href="#">Contact</a>
+        
         </nav>
-         
         <nav id="menuVert">
-        Navigate menu   
+         <ul type="none" align ="left" id="cll" >
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li><a href="#">Contact</a></li>
+         </ul>
         </nav>
         
         <aside id ="asid">
@@ -25,8 +35,9 @@
         
         </aside>
         
-        <img  id="pict" src= "picture/myFoto.jpg" height = "600" alt = "MyFoto" >
-        
+        <div  id ="temp">
+        <img  id="pict" src= "picture/myFoto.jpg" height = "600" alt = "MyFoto">
+        </div>
         <div class="clear"></div>
         
         <selection id ="forms">
@@ -89,11 +100,12 @@
         </selection>
         
         
-        <footer>
+        <footer id ="f">
             footer
            
         </footer>
         
+        </div>
         
         
         
