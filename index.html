@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>my</title>
-        <link href ="css/style.css" max-width: 1200px type = "text/css" rel = "stylesheet" >
-        <link rel="stylesheet" media="(max-width: 599px)" href="css/style_min_size.css">
+        <link href ="css/style.css"           media= "( min-width: 600px)"  type = "text/css" rel = "stylesheet" >
+        <link  href="css/style1.css"          media=  "(max-width: 599px)"   type = "text/css" rel="stylesheet"  >
     </head>
     <body>
-        <div id="flex">
+       
         <header id="hed"> 
             Header
           This is my WebSite.
@@ -32,14 +32,16 @@
         
         <aside id ="asid">
            Aside
-        
         </aside>
         
         <div  id ="temp">
-        <img  id="pict" src= "picture/myFoto.jpg" height = "600" alt = "MyFoto">
+        <img  id="pict" src= "picture/myFoto.jpg"  alt = "MyFoto">
         </div>
-        <div class="clear"></div>
         
+        
+        
+        
+        <div class="clear"></div>
         <selection id ="forms">
             <h2>Contact</h2>
          <form action = "formdata.php"  metod="post" name ="form1">
@@ -47,41 +49,7 @@
         <legend><STRONG>INPUT ELEMENTS</STRONG> </legend>
         <p><label>Name:<input type ="text" name ="_name" size ="10" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
         <p><label>Email:<input type ="email" name ="_email" required></label>
-        <p><label>Enter password: <input type ="password" name ="password" size ="10" maxlength ="10" required ></label> </p>
         
-        <p> Do you know me? <label>Yes <input type ="radio"  name ="name" value = "yes"  checked   ></label>  <label>No <input type ="radio"  name ="name" value = "no"></label> </p>
-
-        <p>Selection </p>
-        <p>
-        <select name ="times">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option selected>5</option>
-        <option>6</option>
-        <option>7</option>
-        </select>
-        </p>
-        <p>
-        <select name ="times" size ="3" multiple>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option selected>5</option>
-        <option>6</option>
-        <option>7</option>
-        </select>
-        </p>
-
-        
-        <p> Make your choice:  
-        <label>Choice 1 <input type ="checkbox" name ="cb1">  </label> 
-        <label>Choice 2 <input type ="checkbox" name ="cb2" checked>  </label> 
-        <label>Choice 3 <input type ="checkbox" name ="cb3">  </label> 
-        </p>
-        </fieldset>
         
         
         <!--RihtTextBox -->
@@ -93,19 +61,18 @@
         <input type ="submit" value ="Sent"> 
         <input type ="reset" value ="Reset">
         </p>
+        </fieldset>
         <p>
         <input type ="image" src ="image/ibutton.png" name ="picture">
         </p>
         </form>
         </selection>
         
-        
         <footer id ="f">
             footer
-           
-        </footer>
+         </footer>
         
-        </div>
+       
         
         
         

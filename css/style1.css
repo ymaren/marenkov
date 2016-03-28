@@ -1,7 +1,6 @@
 body 
 {
             max-width: 1200px;
-            min-width: 300px;
             margin: 0 auto;
             text-align: center;
             width: 90%;
@@ -27,47 +26,20 @@ header
 {
     font:  30px Tahoma;
     color: #33FF05;
-    background:#2C3244;
+    background:#00D5FF;
     width: 100%;
     height: 40px;
     margin: 0;
     padding:0;
 }
-#menuGoryz  a
-{
-    color:#4BFF1E;
-    
-}
-
 
 #menuVert
 {
-    color:#4BFF1E;
-    font: 20px Verdana;
-    background:#000000;
-    height: 500px;
-     width: 15%;
-    margin: 0;
-    padding:0;
-   background-size:cover;
-   float: left;
+   display: none;
   
 }
 
-#menuVert ul 
-{
-    color:#33FF05;
-    
-    margin: 0;
-    padding:0;
-}
 
-#menuVert ul a
-{
-    color:#33FF05;
-    margin: 0;
-    padding:0;
-}
 
 
 
@@ -76,7 +48,7 @@ aside
     font: 40px Tahoma;
     color:#FFFAF0;
     height: 500px;
-    width: 65%;
+    width: 100%;
     margin: 0;
     padding:0;
     background-image: url(../picture/fone.jpg) ;
@@ -87,10 +59,7 @@ aside
 
 
 #pict{
-width: 20%;  
-height: 500px;
-margin: 0;
-padding:0;
+display: none;
 }
 
 
@@ -107,12 +76,7 @@ footer
     font: 40px Tahoma;
     color:#4BFF1E;
     background: #EA1527;
-    width: 100%;
-    margin: 0;
-    padding:0;
-   
-    
-
+    height: 60px;
 }
 
 .clear{
