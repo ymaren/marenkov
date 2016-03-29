@@ -82,6 +82,7 @@ aside
     background-image: url(../picture/fone.jpg) ;
     background-size:cover;
     float: left;
+    
    
 }
 
@@ -91,6 +92,10 @@ width: 20%;
 height: 500px;
 margin: 0;
 padding:0;
+box-shadow: 10px 10px 10px;
+border-radius: 40px;
+opacity: 0.5;
+
 }
 
 
