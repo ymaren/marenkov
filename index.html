@@ -4,9 +4,36 @@
         <title>my</title>
         <link href ="css/style.css"           media= "( min-width: 600px)"  type = "text/css" rel = "stylesheet" >
         <link  href="css/style1.css"          media=  "(max-width: 599px)"   type = "text/css" rel="stylesheet"  >
+        <script type="text/javascript" src= "java/jquery.js"></script>
+        
+  
     </head>
     <body>
     
+    <div id = "fieldforcontactform">
+    <div id = "f">
+     <form action = "formdata.php"  metod="post" name ="form1" id ="Inputform">
+        <fieldset>
+        <legend> <strong>Contact form</strong>  </legend>
+        <p align="left"><label><strong>Name:</strong><input type ="text" name ="_name" size ="20" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
+        <p align="left"><label><strong>Email:</strong><input type ="email" name ="_email" placeholder="Your email" required></label>
+        <!--RihtTextBox -->
+        <p><label for ="rtx">Enter the text for me:</label></p>
+        <textarea id ="etx" name ="text" rows ="5" cols ="40"  >Text
+        </textarea>
+        <p> 
+        <input type ="submit" value ="Sent"> 
+        <input type ="reset" value ="Reset">
+        </p>
+        </fieldset>
+       </form>
+     </div>
+     <div id ="t">
+             show
+     </div>
+    </div>
+    
+   
     <div id="flex">
        
         <header id="hed"> 
@@ -21,7 +48,7 @@
                    <a href="#">Skills</a>
                    <a href="#">Work</a>
                    <a href="#">Contact</a>
-        
+                  
         </nav>
         <nav id="menuVert">
          <ul type="none" align ="left" id="cll" >
@@ -40,49 +67,17 @@
         <img  id="pict" src= "picture/myFoto.jpg"  alt = "MyFoto">
         </div>
         
-        
-        
-        
-        
-        
         <div class="clear"></div>
         
-        <selection id ="forms">
-            <h2>Contact</h2>
-         <form action = "formdata.php"  metod="post" name ="form1">
-        <fieldset>
-        <legend><STRONG>INPUT ELEMENTS</STRONG> </legend>
-        <p><label>Name:<input type ="text" name ="_name" size ="10" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
-        <p><label>Email:<input type ="email" name ="_email" required></label>
-        
-        
-        
-        <!--RihtTextBox -->
-        <p><label for ="rtx">Enter the text for me:</label></p>
-        <textarea id ="etx" name ="text" rows ="5" cols ="40">Text
-        </textarea>
-        
-        <p> 
-        <input type ="submit" value ="Sent"> 
-        <input type ="reset" value ="Reset">
-        </p>
-        </fieldset>
-        <p>
-        <input type ="image" src ="image/ibutton.png" name ="picture">
-        </p>
-        </form>
-        </selection>
-        
-        <footer id ="f">
+        <footer id ="foot">
             footer
          </footer>
-        
-       
         
         </div>
         
      
      
-     
+     <script src ="java/javascript.js" type="text/javascript"></script>
+    
     </body>
 </html>
