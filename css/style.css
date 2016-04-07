@@ -2,7 +2,7 @@ body
 {
             max-width: 1200px;
             min-width: 320px;
-            margin: 0.5% 0 0 8%;
+            margin: 0.5% auto 0 8%;
             text-align: center;
             height: 80%;
             width: 90%;
@@ -32,7 +32,7 @@ body
 #navig
 {
     height: 200%;
-    width: 100%;
+    width: 120%;
     position: absolute;
     background: #EDEDED;
     display: none;
@@ -107,7 +107,7 @@ aside
     font: 40px Tahoma;
     color:#EDEDED;
     height: 500px;
-    width: 100%;
+    width: 1600px;
     margin: 0;
     padding:0;
     background: #EDEDED;
