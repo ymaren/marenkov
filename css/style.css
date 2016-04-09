@@ -2,15 +2,97 @@ body
 {
             max-width: 1200px;
             min-width: 320px;
-            margin: 0.5% auto 0 8%;
+            margin: 0.5% 0 0 6%;
             text-align: center;
-            height: 80%;
-            width: 90%;
+            height: 100%;
+            width:100%;
             top: 10px;
             
            
             
 }
+
+
+header
+{   
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+    font: 30px Tahoma;
+    color:#FFFFFF;
+    background: #292DEA;
+    height: 620px;
+    width: 1200px;
+    background-image: url(../picture/my_foto.jpg);
+    background-size:cover;
+    
+    margin-bottom:  2%;
+    padding:0;
+}
+
+
+#hed #myname
+{
+  top: 200px;
+  width: 500px;   
+  position: absolute;
+  background-size:cover;
+}
+
+#btnowner
+{
+   
+    transform: rotate(0deg);    
+    position: fixed;
+    right: 10%;
+    top: 5%;
+    background:#FFFFFF;
+    cursor: pointer;
+    shape-shifte:spincube;
+   
+  
+    
+    
+}
+
+#btnowner {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#btnowner:hover, .shrink:focus, .shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+#arrow
+{
+   
+    cursor: pointer;
+    bottom:  50px;
+    left: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
+
 
 #hedMeny
 {
@@ -32,7 +114,7 @@ body
 #navig
 {
     height: 200%;
-    width: 120%;
+    width: 100%;
     position: absolute;
     background: #EDEDED;
     display: none;
@@ -44,53 +126,17 @@ body
     margin: 0;
     padding:0;
     text-align: center;
-}
-
-
-header
-{   
-    border-top-left-radius:  10px;
-    border-top-right-radius: 10px;
-    font: 30px Tahoma;
-    color:#FFFFFF;
-    background: #292DEA;
-    height: 940px;
-    width: 1600px;
-    background-image: url(../picture/my_foto.jpg);
-    background-size:cover;
-    margin: 0;
-    padding:0;
-    left: 30%;
-}
-
-
-
-#menuGoryz 
-{
-    font:  30px Tahoma;
-    color: #33FF05;
-    background:#2C3244;
-    width:   1600px;
-    height: 40px;
-    margin: 0;
-    padding:0;
-}
-#menuGoryz  a
-{
-    color:#4BFF1E;
-    
-}
-
-#btnowner
-{
    
-    transform: rotate(0deg);    
-    position: fixed;
-    right: 10%;
-    top: 5%;
-    background:#FFFFFF;
-    
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,7 +153,7 @@ aside
     font: 40px Tahoma;
     color:#EDEDED;
     height: 500px;
-    width: 1600px;
+    width: 1200px;
     margin: 0;
     padding:0;
     background: #EDEDED;
@@ -121,7 +167,7 @@ aside
 #fieldforcontactform
 {
    position: fixed; 
-   background: #FC6F23; 
+   background: #FFFFFF; 
    top: 30%;
    left: 0;
    margin: 0;
@@ -129,9 +175,7 @@ aside
    height:300px;
    width: 20px;
    border-width: 2px;
-  
-  
-}
+ }
 
 #f
 {   
@@ -152,7 +196,7 @@ aside
 {   
     background: #85FCF8; 
     height: 100%;
-    
+    cursor:pointer;
     
     
     
@@ -204,7 +248,7 @@ opacity: 1;
 
 
 #forms
-{    background:#8E8CFF;
+{    background:#FFFFFF;
     
 }
 
@@ -213,8 +257,8 @@ footer
 {
     font: 40px Tahoma;
     color:#4BFF1E;
-    background: #EA1527;
-    width: 1600px;
+    background:#FFFFFF;
+    width: 1200px;
     margin: 0;
     padding:0;
  }
