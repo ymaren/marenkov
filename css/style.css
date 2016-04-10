@@ -4,13 +4,10 @@ body
             min-width: 320px;
             margin: 0.5% 0 0 6%;
             text-align: center;
-            height: 100%;
+            height:100%;
             width:100%;
             top: 10px;
-            
-           
-            
-}
+ }
 
 
 header
@@ -21,37 +18,32 @@ header
     color:#FFFFFF;
     background: #292DEA;
     height: 620px;
-    width: 1200px;
+    width: 100%;
     background-image: url(../picture/my_foto.jpg);
     background-size:cover;
-    
+    font-family: 'Playfair Display', serif;
     margin-bottom:  2%;
     padding:0;
+    z-index: -1;
 }
 
+#cube
+{
+    
+    z-index: 111;
+}
 
-#hed #myname
+#myname
 {
   top: 200px;
   width: 500px;   
   position: absolute;
   background-size:cover;
-}
-
-#btnowner
-{
-   
-    transform: rotate(0deg);    
-    position: fixed;
-    right: 10%;
-    top: 5%;
-    background:#FFFFFF;
-    cursor: pointer;
-    shape-shifte:spincube;
-   
+  font-family: 'Playfair Display', serif;
+  color: #000000;
+  z-index:  0;
+  margin: 0;
   
-    
-    
 }
 
 #btnowner {
@@ -64,6 +56,7 @@ header
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
 #btnowner:hover, .shrink:focus, .shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
@@ -71,11 +64,18 @@ header
 
 
 
-
-
-
-
-
+#btnowner
+{
+   
+    transform: rotate(0deg);    
+    position: fixed;
+    right: 10%;
+    top: 5%;
+    background:#FFFFFF;
+    cursor: pointer;
+    shape-shifte:spincube;
+     z-index: 10;
+}
 
 
 #arrow
@@ -87,9 +87,24 @@ header
     position: absolute;
 }
 
-
-
-
+#navig
+{
+    height: 350%;
+    width: 100%;
+    position: absolute;
+    background: #EDEDED;
+    display: none;
+    opacity: 0.7;
+    left: 0;
+    right: 20%;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    z-index: 8;
+}
 
 
 
@@ -103,6 +118,21 @@ header
     position: fixed;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #m{
       width: 20%;
       left:  20%;
@@ -111,23 +141,7 @@ header
 }
 
 
-#navig
-{
-    height: 200%;
-    width: 100%;
-    position: absolute;
-    background: #EDEDED;
-    display: none;
-    opacity: 0.7;
-    left: 0;
-    right: 20%;
-    top: 0;
-    bottom: 0;
-    margin: 0;
-    padding:0;
-    text-align: center;
-   
-}
+
 
 
 
@@ -151,17 +165,135 @@ header
 aside
 {
     font: 40px Tahoma;
-    color:#EDEDED;
-    height: 500px;
+ 
+    height: 640px;
     width: 1200px;
     margin: 0;
     padding:0;
     background: #EDEDED;
     background-size:cover;
+}
+
+.skills
+{
+    text-align: left;
+    left: 0;
+    margin-left:  3%;
+    margin-bottom: 5px;
+    padding: 0;
     
-    
+}
+
+.logo{
+    transform: rotate(-35deg);
+    margin: 0;
+    padding: 0;
+    left: 10%;
+    top: 5%;
+    bottom: 50%;
+    position: static;
+}
+
+#skills
+{
+    font: 40px Tahoma;
+    color:#002AFC;
+    height: 50px;
+    width: 1200px;
+    margin: 0;
+    padding:0;
+    background: #90E5E1;
+    background-size:cover;
+     background-image: url(../picture/foto_rez.jpg);
+}
+
+
+
+
+
+
+#resumeOwner
+{
+    position: relative;
+}
+
+#download_resume
+{
+   position: absolute;
+   left: 10%;
+   z-index: 5;
+   font-size: 40px;
+   font-family: 'Dancing Script', cursive;
+}
+
+
+#resume
+{
+   
+    color:#EDEDED;
+    margin: 0;
+    padding:0;
+    background: #CBE4FC;
+    background-size:cover;
+    left: 0;
+    bottom: 10%;
+    position: relative ;
+    top: 0%;
+    margin-bottom: 200px;
+     z-index: 1;
+     cursor: pointer;
+}    
+
+
+
+#div _resumeOwner
+{
+   z-index: 1;
+}
+
+
+#lastfoto
+{
+   
+   position: relative;
+    margin:0;
+    padding:0;
+   
+    left: 0%;
+    right:80%;
+     z-index: 3;
    
 }
+
+#div_envelopeLeftpart{
+    z-index:3;
+}
+
+
+
+#div_envelopeRightpart{
+     top: 20%;
+    bottom: 50%;
+    z-index: 0;
+}
+
+
+
+#lastfot
+{
+    position: absolute;
+    left: 26.5% ; 
+    z-index: 0;
+}
+
+
+#last
+{
+    margin-top: 5%;
+    background: #F0F0F0;
+    height: 690px;
+}
+
 
 
 #fieldforcontactform
@@ -175,6 +307,7 @@ aside
    height:300px;
    width: 20px;
    border-width: 2px;
+    z-index: 3;
  }
 
 #f
@@ -237,14 +370,7 @@ aside
 
 
 
-#pict{
-width: 20%;  
-height: 500px;
-margin: 0;
-padding:0;
-box-shadow: 10px 10px 10px;
-opacity: 1;
-}
+
 
 
 #forms
@@ -255,13 +381,19 @@ opacity: 1;
 
 footer
 {
-    font: 40px Tahoma;
+    font: 40px;
     color:#4BFF1E;
-    background:#FFFFFF;
+    color: #000000;
     width: 1200px;
     margin: 0;
     padding:0;
+    font-family: 'Dancing Script', cursive;
  }
+ 
+ 
+
+ 
+ 
 
 .clear{
  clear: both;   

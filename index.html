@@ -4,29 +4,120 @@
         <title>my</title>
         <link href ="css/style.css"           media= "( min-width: 600px)"  type = "text/css" rel = "stylesheet" >
         <link  href="css/style1.css"          media=  "(max-width: 599px)"   type = "text/css" rel="stylesheet"  >
-        <script type="text/javascript" src= "java/jquery.js"></script>
-        
-  
+       
+        <script type="text/javascript" src= "js/jquery.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet" type="text/css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
+        <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         
-    	<div id ="navig"><h1 id ="hedMeny">My menu
-    	 <ul id= "m" type="square">
-         <li>Home  </li>
-         <li>Skils  </li>
-         <li>Works  </li>
-         <li>Contact  </li>
+     <!-- Owner menu -->  
+    <div id ="navig"><h1 id ="hedMeny">My menu
+    	 <ul id= "m" type="none">
+         <li ><a id ="menuHome" href = "#hed">Home</a></li>
+         <li><a id ="menuskills" href = "#asid">Skills</a></li>
+         <li><a id ="menulast" href = "#last">Resume</a></li>
+         <li><a id ="menuContact" href = "#last">Contact</a></li>
          </ul>
          </h1>
 	 </div>
     
+    
+    
+    
+   
         
-    
-    
-    
-    <div id = "fieldforcontactform">
+    <div id="flex">
+       
+       
+        <!--header -->
+        <header id="hed"> 
+            <div class="stage" style="width: 120px; height: 120px;right:0px; position: relative; left:5%; top:5%;"> 
+			<div  id = "cube" class="cubespinner"> 
+				<div class="face1">HTML</div> 
+				<div class="face2">CSS</div> 
+				<div class="face3">JS</div> 
+				<div class="face4">JQuery</div> 
+				<div class="face5">AJAX</div> 
+				<div class="face6">IT</div> 
+			</div> 
+			
+			<div id ="myname">
+			<p >Hi! </br> My name is Yevhen Marenkov. </br> I'm beginner web-developer.</p>
+		    </div>
+		    
+		   </div>
+          <div >
+          <img class ="grow" id="btnowner" src= "picture/btnOwner.png" width = "40"  height = "40" alt = "buttonmenu">
+          </div>
+          
+           <div id="arrow">       
+            <a   id="arrowRef"  href = "#asid">  
+             <img   src= "picture/arrow.png" width = "40"  height = "20" alt = "arrow">
+           </a>
+           </div>
+        </header>
+        
+        
+        <!--skills -->
+        <aside id ="asid">
+         <p   class="skills"> Programming Languages Technologies</p>
+         <img  src= "picture/logo_net_framework.png" width = "307"  height = "57" alt = "rightBottomfoto" >
+         <img  src= "picture/SQL.png" width = "307"  height = "57" alt = "logo SQL" >
+        <ul  class="skills" ">
+           <li class="skills" >C ++ </li>
+           <li class="skills">C# (certificate .Net Core SoftServe University)</li>
+           <li class="skills" >HTML, SCC, Java Script, JQuery  (certificate  SoftServe University)</li>
+           <li class="skills">dbf , XML </li>
+           <li class="skills" > DB :SQL Server/SQL</li>
+        </ul>
+            <img class="logo"  src= "picture/html_css_js.png" width = "150"  height = "100" alt = "Html css JS" >
+            <img   class="logo" src= "picture/jslogo.png" width = "150"  height = "100" alt = "Java Script" >
+        </aside>
+        
+        
+        
+        
+        <!--last div -->
+        <div  id ="last">
+          <div id ="div_envelopeLeftpart">
+          <img  id ="lastfoto" src= "picture/envelopeLeftpart.png" width = "500"  height = "680" alt = "rightBottomfoto" align="left" >
+          <a id ="download_resume"href = "resume/Yevhen_Marenkov_resume.pdf" >Download resume pdf</a>
+          </div>
+          
+          <div id ="div_envelopeRightpart">
+          <img  id ="lastfot" src= "picture/envelopeRightpart.png" width = "500"  height = "680" alt = "leftBottomfoto" >
+          </div>
+           
+          <div id ="div _resumeOwner">
+          <img  id ="resume" src= "picture/resume.png" width = "530"  height = "680" alt = "resume" >
+        </div>
+        
+    </div>
+        
+    <div class="clear"></div>
+        
+        
+        
+        <!--Footer -->
+        <footer id ="foot">
+             <h2> <span>
+              <img  id ="r" src= "picture/picture_footer.jpg" width = "100"  height = "100" alt = "log" >
+              </span> 2016 <span class="icon-copyright">&#169</span> Yevhen Marenkov</h2> 
+         </footer>
+        
+        
+        </div>
+        
+        
+    <!--Form write me -->
+     <div id = "fieldforcontactform">
     <div id = "f">
-     <form action = "formdata.php"  metod="post" name ="form1" id ="Inputform">
+     <form action = "php/formdata.php"  metod="POST" name ="form1" id ="Inputform">
         <fieldset>
         <legend> <strong>Contact form</strong>  </legend>
         <p align="left"><label><strong>Name:</strong><input type ="text" name ="_name" size ="20" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
@@ -42,61 +133,11 @@
         </fieldset>
        </form>
      </div>
-  
-         <img id ="t"  src= "picture/btnHide.bmp" width = "35"  height = "300"  >
-     
-    </div>
-    
+           <img id ="t"  src= "picture/btnHide.bmp" width = "35"  height = "300"  >
    
-        
-    <div id="flex">
-       
-        <header id="hed"> 
-           <div class="stage" style="width: 120px; height: 120px;right:0px; position: relative; left:5%; top:5% "> 
-			<div class="cubespinner"> 
-				<div class="face1">HTML</div> 
-				<div class="face2">CSS</div> 
-				<div class="face3">JS</div> 
-				<div class="face4">JQuery</div> 
-				<div class="face5">AJAX</div> 
-				<div class="face6">IT</div> 
-			</div> 
-			
-			<p id ="myname">Hi I am Yevhen Marenkov</p>
-		
-		   </div>
-          <div >
-          <img  id="btnowner" src= "picture/btnOwner.png" width = "40"  height = "40" alt = "Будильник" align ="right">
-          </div>
-          
-           <div id="arrow">       
-           
-           <a  href = "#asid">  
-           <img   src= "picture/arrow.png" width = "40"  height = "20" alt = "arrow">
-           </a>
-           </div>
-        </header>
-        
-        
-        <aside id ="asid">
-           Aside
-        </aside>
-        
-        <div  id ="temp">
-        <img  id="pict" src= "picture/myFoto.jpg"  alt = "MyFoto">
-        </div>
-        
-        <div class="clear"></div>
-        
-        <footer id ="foot">
-            footer
-         </footer>
-        
-        </div>
-        
+    </div>
      
-     
-     <script src ="java/javascript.js" type="text/javascript"></script>
+     <script src ="js/javascript.js" type="text/javascript"></script>
     
     </body>
 </html>
