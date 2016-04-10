@@ -160,28 +160,38 @@ function(){
 
 
 //sent form
+
+
 $('#sentform').click(function() {
   // Please set your email in url field
   $.ajax({
       url: "https://formspree.io/evgmarenkov@gmail.com",  
       method: "POST",
       data: {
-            
-             name: name.value,
-             email: email.value
+             email: 'email.value',
+             message: 'msg.value'
              },
       dataType: "json"
   }).done(function() {
-     alert ('Thank you!');
+       alert ('Thank you!');
   } );
 });
 
 
-
-
-
-
-
+$('#btn-send').click(function() {
+  // Please set your email in url field
+  $.ajax({
+      url: "https://formspree.io/evgmarenkov@gmail.com",  
+      method: "POST",
+      data: {
+             email: email.value,
+             message: msg.value
+             },
+      dataType: "json"
+  }).done(function() {
+     $('#container').html('<h1>Thank you!</h1>')
+  } );
+});
 
 
 
