@@ -159,8 +159,22 @@ function(){
 
 
 
-
-
+//sent form
+$('#sentform').click(function() {
+  // Please set your email in url field
+  $.ajax({
+      url: "https://formspree.io/evgmarenkov@gmail.com",  
+      method: "POST",
+      data: {
+            
+             name: name.value,
+             email: email.value
+             },
+      dataType: "json"
+  }).done(function() {
+     alert ('Thank you!');
+  } );
+});
 
 
 

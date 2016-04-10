@@ -117,17 +117,20 @@
     <!--Form write me -->
      <div id = "fieldforcontactform">
     <div id = "f">
-     <form action = "php/formdata.php"  metod="POST" name ="form1" id ="Inputform">
+     <form   metod="POST" name ="form1" id ="Inputform">
         <fieldset>
         <legend> <strong>Contact form</strong>  </legend>
-        <p align="left"><label><strong>Name:</strong><input type ="text" name ="_name" size ="20" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
-        <p align="left"><label><strong>Email:</strong><input type ="email" name ="_email" placeholder="Your email" required></label>
+       
+       
+        <p align="left"><label><strong>Name:</strong><input type ="text" name ="_name" id ="name" size ="20" maxlength ="10" placeholder="Your Name" required autofocus >  </label> </p>
+        
+        <p align="left"><label><strong>Email:</strong><input type ="email" name ="_email" id ="email"  placeholder="Your email" required></label>
         <!--RihtTextBox -->
         <p><label for ="rtx">Enter the text for me:</label></p>
         <textarea id ="etx" name ="text" rows ="5" cols ="40"  >Text
         </textarea>
         <p> 
-        <input type ="submit" value ="Sent"> 
+        <input id ="sentform" type ="submit" value ="Sent"> 
         <input type ="reset" value ="Reset">
         </p>
         </fieldset>
