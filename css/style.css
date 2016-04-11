@@ -62,7 +62,6 @@ header
 
 #btnowner
 {
-   
     transform: rotate(0deg);    
     position: fixed;
     right: 10%;
@@ -84,7 +83,8 @@ header
 }
 
 #arrow:hover{
-   width: 200px;
+   border-bottom-color: #A7FF5A;
+   border-bottom-style: solid;
 }
 
 
@@ -106,6 +106,12 @@ header
     font-family: 'Dancing Script', cursive;
     z-index: 8;
 }
+
+.menuhover:hover{
+   color:  #FF1E9D;
+
+}
+
 
 #hedMeny
 {
@@ -192,7 +198,10 @@ aside
 {
    z-index: 1;
 }
-
+#resume
+{
+    cursor: pointer;
+}
 
 #envelopeLeftpart
 {
