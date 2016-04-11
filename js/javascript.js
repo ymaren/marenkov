@@ -3,15 +3,15 @@ $(document).ready(function(){
 
 
 // form contact
-$('#t').click(
+$('#btnShow_Hide_form').click(
    
             function(){
                 
                 if ($('#fieldforcontactform').css("width")=="20px")
                 {
                     $('#fieldforcontactform').css("width", "400px");
-                    $('#f').fadeIn(0.01);
-                    $('#t').attr('src', 'picture/btnHide.bmp');
+                    $('#div_form').fadeIn(0.01);
+                    $('#btnShow_Hide_form').attr('src', 'picture/btnHide.bmp');
                     
                     $('#myname').animate({'top': '0'}, 1000);
                     $('#myname').animate( {'left': '100%'} , 1000);
@@ -19,8 +19,8 @@ $('#t').click(
                     else
                     {
                       $('#fieldforcontactform').css("width", "20px");
-                      $('#f').fadeOut(0.01);
-                      $('#t').attr('src', 'picture/btnShow.bmp');
+                      $('#div_form').fadeOut(0.01);
+                      $('#btnShow_Hide_form').attr('src', 'picture/btnShow.bmp');
                       
                       $('#myname').animate({'top': '200px'}, 1000);
                       $('#myname').animate( {'left': '0'} , 1000);
@@ -145,8 +145,8 @@ function(){
     
    event.preventDefault();
     $('#fieldforcontactform').css("width", "400px");
-    $('#f').fadeIn(0.01);
-    $('#t').attr('src', 'picture/btnHide.bmp');
+    $('#div_form').fadeIn(0.01);
+    $('#btnShow_Hide_form').attr('src', 'picture/btnHide.bmp');
     $('#myname').animate({'top': '0'}, 1000);
     $('#myname').animate( {'left': '100%'} , 1000);
    

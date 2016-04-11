@@ -28,8 +28,7 @@ header
 
 #cube
 {
-    
-    z-index: 111;
+  z-index: 111;
 }
 
 #myname
@@ -42,7 +41,6 @@ header
   color: #000000;
   z-index:  0;
   margin: 0;
-  
 }
 
 #btnowner {
@@ -56,12 +54,11 @@ header
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-#btnowner:hover, .shrink:focus, .shrink:active {
+#btnowner:hover, .shrink:focus, .shrink:active 
+{
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
-
-
 
 #btnowner
 {
@@ -86,6 +83,11 @@ header
     position: absolute;
 }
 
+#arrow:hover{
+   width: 200px;
+}
+
+
 #navig
 {
     height: 350%;
@@ -105,59 +107,13 @@ header
     z-index: 8;
 }
 
-
-
-
 #hedMeny
 {
-    
     width: 20%;
     left:  40%;
     top: 30%;
     position: fixed;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#m{
-      width: 20%;
-      left:  20%;
-      position: relative;
-      
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -183,6 +139,7 @@ aside
     
 }
 
+
 .logo{
     transform: rotate(-35deg);
     margin: 0;
@@ -193,28 +150,21 @@ aside
     position: static;
 }
 
-#skills
+
+
+
+
+
+
+
+#last
 {
-    font: 40px Tahoma;
-    color:#002AFC;
-    height: 50px;
-    width: 1200px;
-    margin: 0;
-    padding:0;
-    background: #90E5E1;
-    background-size:cover;
-     background-image: url(../picture/foto_rez.jpg);
+    margin-top: 5%;
+    background: #F0F0F0;
+    height: 690px;
 }
 
 
-
-
-
-
-#resumeOwner
-{
-    position: relative;
-}
 
 #download_resume
 {
@@ -226,49 +176,11 @@ aside
 }
 
 
-#resume
-{
-   
-    color:#EDEDED;
-    margin: 0;
-    padding:0;
-    background: #CBE4FC;
-    background-size:cover;
-    left: 0;
-    bottom: 10%;
-    position: relative ;
-    top: 0%;
-    margin-bottom: 200px;
-     z-index: 1;
-     cursor: pointer;
-}    
 
-
-
-#div _resumeOwner
-{
-   z-index: 1;
-}
-
-
-#lastfoto
-{
-   
-   position: relative;
-    margin:0;
-    padding:0;
-   
-    left: 0%;
-    right:80%;
-     z-index: 3;
-   
-}
 
 #div_envelopeLeftpart{
     z-index:3;
 }
-
-
 
 #div_envelopeRightpart{
      top: 20%;
@@ -276,21 +188,30 @@ aside
     z-index: 0;
 }
 
+#div _resumeOwner
+{
+   z-index: 1;
+}
 
 
-#lastfot
+#envelopeLeftpart
+{
+   
+   position: relative;
+    margin:0;
+    padding:0;
+    left: 0%;
+    right:80%;
+    z-index: 3;
+   
+}
+
+
+#envelopeRightpart
 {
     position: absolute;
     left: 26.5% ; 
     z-index: 0;
-}
-
-
-#last
-{
-    margin-top: 5%;
-    background: #F0F0F0;
-    height: 690px;
 }
 
 
@@ -309,7 +230,7 @@ aside
     z-index: 3;
  }
 
-#f
+#div_form
 {   
     background: #EBEBEB; 
     float: left;
@@ -318,64 +239,26 @@ aside
     display: none;
 }
 
-#etx
+
+
+
+
+
+
+#Rtx
 {
  border-radius: 10px;
  resize:none;
 }
 
-#t
+#btnShow_Hide_form
 {   
     background: #85FCF8; 
     height: 100%;
     cursor:pointer;
-    
-    
-    
 }
 
 
-#s
-{
-  
-  cursor: pointer;
-  text-decoration: underline;
-  background:  #0047FF; 
-}
-
-#text{
-      transform: rotate(-90deg);
-}
-
-
-
- #btnShowHide
- {
-     position:absolute;
-     top:35%;
-     right: 0;
- }
-
-#formHide
-{
-    text-decoration: underline;
-    cursor:  pointer ;
-}
- 
-
-
-
-
-
-
-
-
-
-
-#forms
-{    background:#FFFFFF;
-    
-}
 
 
 footer
@@ -391,7 +274,6 @@ footer
  
  
 
- 
  
 
 .clear{
